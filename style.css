@@ -29,6 +29,7 @@ ul {
   display: flex;
   list-style: none;
   gap:  12px;
+  margin-bottom: 10px;
 }
 
 .user-info {
@@ -37,6 +38,32 @@ ul {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.search {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+.search:focus {
+  outline: none;
+  border-color: #070b7a;
+  box-shadow: 0 0 5px rgba(7, 11, 122, 0.5);
+}
+
+.submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #070b7a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 .repo-item {
