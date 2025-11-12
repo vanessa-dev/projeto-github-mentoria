@@ -40,7 +40,9 @@ ul {
 }
 
 .repo-item {
-  border: 2px solid #ececec;
+  border: 2px solid #881190;
+  background-color: #d831e3;
+  color: #ffffff;
   border-radius: 10px;
   padding: 12px;
   text-align: center;
